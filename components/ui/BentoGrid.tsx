@@ -11,13 +11,13 @@ import { cn } from "@/utils/cn";
 
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "@/components/ui/GridGlobe";
-import animationData from "../data/confetti.json";
+import animationData from "@/components/data/confetti.json";
 import MagicButton from "@/components/ui/MagicButton";
 
 export const BentoGrid = ({
-                            className,
-                            children,
-                          }: {
+  className,
+  children,
+}: {
   className?: string;
   children?: React.ReactNode;
 }) => {
