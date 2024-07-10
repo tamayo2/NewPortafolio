@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
@@ -35,16 +35,15 @@ export const BentoGrid = ({
 };
 
 export const BentoGridItem = ({
-                                className,
-                                id,
-                                title,
-                                description,
-                                //   remove unecessary things here
-                                img,
-                                imgClassName,
-                                titleClassName,
-                                spareImg,
-                              }: {
+  className,
+  id,
+  title,
+  description,
+  img,
+  imgClassName,
+  titleClassName,
+  spareImg,
+}: {
   className?: string;
   id: number;
   title?: string | React.ReactNode;
@@ -89,6 +88,7 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={img}
               alt={img}
@@ -101,6 +101,7 @@ export const BentoGridItem = ({
           } `}
         >
           {spareImg && (
+            // eslint-disable-next-line @next/next/no-img-element
             <img
               src={spareImg}
               alt={spareImg}
@@ -129,7 +130,6 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {/* for the github 3d globe */}
           {id === 2 && <GlobeDemo />}
 
           {/* Tech stack list div */}
