@@ -84,7 +84,7 @@ export const projects = [
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "/p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      link: "https://github.com/NextGenStacks/GenStacksFullstack",
     },
     {
       id: 3,
