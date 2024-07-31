@@ -72,11 +72,11 @@ export const gridItems = [
 export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
+      title: "Flight Adventure - ReactJS",
+      des: "This is a project made with ReactJS, It is made so that you can separate your flights and live impressive adventures.",
+      img: "/portafolio-image.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      link: "https://github.com/tamayo2/Flight-ReactJS",
     },
     {
       id: 2,
