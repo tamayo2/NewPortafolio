@@ -209,12 +209,7 @@ export const socialMedia = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-      link: "https://github.com/tamayo2",
-    },
-    {
-      id: 3,
       img: "/link.svg",
-      link: "https://github.com/tamayo2",
+      link: "www.linkedin.com/in/juan-sebastián-tamayo-cuadrado-developer",
     },
 ];
