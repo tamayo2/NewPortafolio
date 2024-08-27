@@ -84,7 +84,7 @@ export const projects = [
       des: "Simplify your video conferencing experience with VidFace. Seamlessly connect with colleagues and friends.",
       img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/NextGenStacks/GenStacksFullstack",
+      link: "https://vidface.vercel.app/",
     },
     {
       id: 3,
