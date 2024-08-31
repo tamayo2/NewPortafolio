@@ -90,7 +90,7 @@ export const projects = [
       id: 3,
       title: "Chic-in Automated Service",
       des: "Automation for the customer supplier process, your process to request a fast and efficient service.",
-      img: "/p3.svg",
+      img: "/p3.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://chic-in.vercel.app/",
     },
